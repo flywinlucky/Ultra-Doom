@@ -180,7 +180,6 @@ public class StyleHUD : MonoBehaviour
 		{
 			maxReachedRank = currentRank;
 		}
-		DiscordController.UpdateRank(currentRank);
 	}
 
 	public void DescendRank()
@@ -215,7 +214,6 @@ public class StyleHUD : MonoBehaviour
 		{
 			ComboOver();
 		}
-		DiscordController.UpdateRank(currentRank);
 	}
 
 	public void AddPoints(int points, string pointName)

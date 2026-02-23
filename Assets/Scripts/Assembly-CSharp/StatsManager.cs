@@ -161,7 +161,6 @@ public class StatsManager : MonoBehaviour
 		}
 		if (!endlessMode)
 		{
-			DiscordController.UpdateStyle(stylePoints);
 		}
 	}
 

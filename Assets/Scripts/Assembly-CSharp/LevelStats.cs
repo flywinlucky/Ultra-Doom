@@ -38,15 +38,8 @@ public class LevelStats : MonoBehaviour
 		sman = Object.FindObjectOfType<StatsManager>();
 		if (sman.levelNumber != 0 && GameProgressSaver.GetProgress(PlayerPrefs.GetInt("Diff")) > sman.levelNumber)
 		{
-			LevelActivity levelActivity = Object.FindObjectOfType<LevelActivity>();
-			if (levelActivity != null)
-			{
-				levelName.text = levelActivity.Assets.LargeText;
-			}
-			else
-			{
-				levelName.text = "???";
-			}
+			levelName.text = "";
+
 			ready = true;
 			CheckStats();
 		}

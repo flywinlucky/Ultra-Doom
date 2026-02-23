@@ -487,12 +487,10 @@ public class OptionsMenuToManager : MonoBehaviour
 		if (stuff)
 		{
 			PlayerPrefs.SetInt("DisImp", 1);
-			DiscordController.Enable();
 		}
 		else
 		{
 			PlayerPrefs.SetInt("DisImp", 0);
-			DiscordController.Disable();
 		}
 	}
 

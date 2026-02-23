@@ -26,8 +26,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _TextureWarping: 0.3
+    - _TextureWarping: 0
     - _VertexWarpScale: 1
-    - _VertexWarping: 160
+    - _VertexWarping: 9999
     m_Colors: []
   m_BuildTextureStacks: []
