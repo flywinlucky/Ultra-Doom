@@ -40,10 +40,10 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TextureWarping: 0
+    - _TextureWarping: 0.3
     - _UVSec: 0
     - _VertexWarpScale: 1
-    - _VertexWarping: 9999
+    - _VertexWarping: 160
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.588, g: 0.588, b: 0.588, a: 1}

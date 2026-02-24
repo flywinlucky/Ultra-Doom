@@ -60,10 +60,10 @@ Material:
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
-    - _TextureWarping: 0
+    - _TextureWarping: 0.3
     - _UVSec: 0
     - _VertexWarpScale: 1
-    - _VertexWarping: 9999
+    - _VertexWarping: 160
     - _ZWrite: 0
     m_Colors:
     - _CameraFadeParams: {r: 1, g: 1, b: 0, a: 0}
