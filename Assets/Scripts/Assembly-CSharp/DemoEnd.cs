@@ -34,8 +34,9 @@ public class DemoEnd : MonoBehaviour
 
 	private void Stats()
 	{
-		sm.fr.targetLevelName = "Credits";
-		sm.SendInfo();
+		Debug.Log("Game ENDED");
+		//sm.fr.targetLevelName = "Credits";
+		//sm.SendInfo();
 	}
 
 	private void StartFade()
